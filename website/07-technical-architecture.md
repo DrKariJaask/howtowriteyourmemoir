@@ -1,12 +1,12 @@
 # Technical Architecture
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document defines the technical architecture of HowToWriteYourMemoir.com.
+This document defines the technical architecture of **HowToWriteYourMemoir.com**.
 
 Its purpose is to provide a scalable, maintainable, secure, and high-performance technical foundation that supports the long-term objectives of the website.
 
@@ -28,21 +28,31 @@ Technical decisions should prioritize long-term sustainability over short-term c
 
 ---
 
-# Platform
+# Technology Stack
 
-This document records the technologies used to build and operate the website.
+The website is built using the following technology stack.
 
-Examples include:
+| Component | Technology |
+|-----------|------------|
+| Website framework | **Astro** |
+| Version control | **GitHub** |
+| Hosting | **Cloudflare Pages** |
+| Edge functions | **Cloudflare Workers** |
+| Content | **Markdown** |
+| Styling | CSS (to be defined during implementation) |
+| Analytics | To be defined |
+| Search | To be defined |
 
-- website framework
-- hosting platform
-- content management system
-- database
-- analytics
-- search functionality
-- third-party integrations
+This stack was selected because it provides:
 
-Technology choices may evolve as the project grows.
+- excellent performance
+- low hosting costs
+- automatic deployment
+- full control over HTML, metadata, and structured data
+- excellent SEO and AI discoverability
+- flexibility for future Targetlytics experiments
+
+Technology choices may evolve as the project grows, but the core architecture should remain stable.
 
 ---
 
@@ -61,18 +71,112 @@ The website should be designed so that new functionality can be added without ma
 
 ---
 
+# Content Architecture
+
+Website content is stored as Markdown files inside the Astro project.
+
+The directory structure is:
+
+```text
+src/
+├── content/
+│   └── articles/
+│       ├── how-to-write-a-memoir.md
+│       ├── finding-your-story.md
+│       ├── planning-your-memoir.md
+│       └── ...
+│
+└── pages/
+    └── [slug].astro
+```
+
+Each article contains frontmatter metadata followed by the article itself.
+
+Example:
+
+```markdown
+---
+title: "How to Write a Memoir: A Complete Beginner's Guide"
+description: "Learn how to write a memoir from start to finish."
+slug: "how-to-write-a-memoir"
+section: "Getting Started"
+---
+
+# How to Write a Memoir
+```
+
+The Markdown files are the single source of truth for published content.
+
+---
+
+# Publishing Workflow
+
+The website uses Git-based publishing.
+
+The publishing workflow is:
+
+```text
+Edit Markdown content
+        ↓
+Commit to GitHub
+        ↓
+Push to main branch
+        ↓
+Cloudflare Pages detects the update
+        ↓
+Astro builds the website
+        ↓
+The updated website is published automatically
+```
+
+No separate content management system is required.
+
+---
+
+# Cloudflare Pages Configuration
+
+The production deployment uses the following configuration.
+
+```text
+Framework preset: Astro
+Build command: npm run build
+Build output directory: dist
+Production branch: main
+```
+
+---
+
+# Cloudflare Workers
+
+Cloudflare Workers are not required for the initial version of the website.
+
+They may later be used for features such as:
+
+- contact forms
+- API integrations
+- redirects
+- personalization
+- analytics processing
+- Targetlytics experiments
+- AI-related functionality
+
+Workers should only be introduced when a clear use case exists.
+
+---
+
 # Performance
 
-Performance should remain a priority throughout development.
+Performance remains a priority throughout development.
 
 Areas for continuous improvement include:
 
 - page loading speed
-- server response times
+- Core Web Vitals
 - image optimization
 - caching
 - efficient code
 - efficient asset delivery
+- static page generation
 
 Technical improvements should enhance the user experience whenever possible.
 
@@ -97,11 +201,11 @@ Security should be considered throughout the development process.
 
 The technical implementation should support:
 
-- efficient internal search
 - logical URL structure
+- intuitive navigation
 - breadcrumb navigation where appropriate
-- XML sitemaps
-- HTML sitemaps if beneficial
+- XML sitemap
+- HTML sitemap if beneficial
 - effective internal linking
 
 Navigation should remain intuitive regardless of future website growth.
@@ -113,9 +217,9 @@ Navigation should remain intuitive regardless of future website growth.
 The publishing workflow should support:
 
 - efficient content creation
+- Markdown-based authoring
+- Git version control
 - content revisions
-- version control where appropriate
-- scheduled publishing
 - metadata management
 - media management
 
@@ -170,5 +274,6 @@ Implementation details, optimization activities, and research observations are d
 # Version History
 
 | Version | Date | Description |
-|----------|------|-------------|
-| 1.0 | YYYY-MM-DD | Initial technical architecture. |
+|---------|------|-------------|
+| 1.0 | YYYY-MM-DD | Initial technical architecture |
+| 1.1 | YYYY-MM-DD | Defined the production technology stack (Astro, Cloudflare Pages, Cloudflare Workers, GitHub), Markdown content architecture, and automated deployment workflow. |
