@@ -82,15 +82,34 @@ src/
 ├── content/
 │   └── articles/
 │       ├── how-to-write-a-memoir.md
-│       ├── finding-your-story.md
-│       ├── planning-your-memoir.md
 │       └── ...
 │
+├── content.config.ts
+│
+├── layouts/
+│   └── BaseLayout.astro
+│
 └── pages/
+    ├── index.astro
     └── [slug].astro
 ```
 
-Each article contains frontmatter metadata followed by the article itself.
+Astro Content Collections are used to define and validate the article content structure.
+
+The content collection configuration is stored in:
+
+```text
+src/content.config.ts
+```
+
+This file defines the required metadata fields for articles, including:
+
+- title
+- description
+- slug
+- section
+
+Each article is stored as a Markdown file containing frontmatter metadata followed by the article content.
 
 Example:
 
@@ -105,7 +124,15 @@ section: "Getting Started"
 # How to Write a Memoir
 ```
 
-The Markdown files are the single source of truth for published content.
+The dynamic article page is located at:
+
+```text
+src/pages/[slug].astro
+```
+
+It reads the Markdown articles from the content collection and generates one published page for each article.
+
+The Markdown files are the single source of truth for published article content.
 
 ---
 
@@ -277,3 +304,4 @@ Implementation details, optimization activities, and research observations are d
 |---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial technical architecture |
 | 1.1 | YYYY-MM-DD | Defined the production technology stack (Astro, Cloudflare Pages, Cloudflare Workers, GitHub), Markdown content architecture, and automated deployment workflow. |
+| 1.2 | 2026-07-27 | Added Astro Content Collections configuration and clarified the article publishing architecture. |
