@@ -34,3 +34,16 @@ We should ask:
 > "What questions should this article answer?"
 
 This approach keeps the content focused on helping visitors solve real problems rather than simply producing content.
+
+# Principle 2 – Design Before Writing
+
+Every page should be created using the following workflow:
+
+1. Define the target visitor.
+2. Identify the questions the visitor needs answered.
+3. Design the page structure around those questions.
+4. Write the content.
+
+Writing should be the final step—not the first.
+
+This process helps ensure that every page is built to solve real user problems rather than simply fill space.
