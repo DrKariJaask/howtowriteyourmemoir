@@ -47,3 +47,20 @@ Every page should be created using the following workflow:
 Writing should be the final step—not the first.
 
 This process helps ensure that every page is built to solve real user problems rather than simply fill space.
+
+# Principle 3 – Build Iteratively
+
+Do not attempt to design or build the entire website before publishing.
+
+Instead:
+
+1. Plan.
+2. Build.
+3. Publish.
+4. Measure.
+5. Learn.
+6. Improve.
+
+Each iteration should make the website better than the previous one.
+
+New pages should be created based on evidence, user needs, and insights gained from previous iterations rather than assumptions.
