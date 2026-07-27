@@ -12,7 +12,22 @@ These principles guide the planning and creation of every page published on the 
 
 ---
 
-# Principle 1 – Start with Questions, Not Articles
+# Principle 1 – Define the Target Visitor First
+
+Every page should begin with a clearly defined target visitor.
+
+Before planning the content, identify:
+
+- Who is this page for?
+- What do they already know?
+- What are they trying to achieve?
+- What concerns or obstacles do they have?
+
+A page should never try to serve everyone. It should be written for one primary visitor with one primary goal.
+
+Understanding the visitor comes before identifying questions, designing the structure, or writing the content.
+
+# Principle 2 – Start with Questions, Not Articles
 
 Content should be designed around the questions visitors are trying to answer, not around the articles we want to publish.
 
@@ -35,7 +50,7 @@ We should ask:
 
 This approach keeps the content focused on helping visitors solve real problems rather than simply producing content.
 
-# Principle 2 – Design Before Writing
+# Principle 3 – Design Before Writing
 
 Every page should be created using the following workflow:
 
@@ -48,7 +63,7 @@ Writing should be the final step—not the first.
 
 This process helps ensure that every page is built to solve real user problems rather than simply fill space.
 
-# Principle 3 – Build Iteratively
+# Principle 4 – Build Iteratively
 
 Do not attempt to design or build the entire website before publishing.
 
@@ -64,21 +79,6 @@ Instead:
 Each iteration should make the website better than the previous one.
 
 New pages should be created based on evidence, user needs, and insights gained from previous iterations rather than assumptions.
-
-# Principle 4 – Define the Target Visitor First
-
-Every page should begin with a clearly defined target visitor.
-
-Before planning the content, identify:
-
-- Who is this page for?
-- What do they already know?
-- What are they trying to achieve?
-- What concerns or obstacles do they have?
-
-A page should never try to serve everyone. It should be written for one primary visitor with one primary goal.
-
-Understanding the visitor comes before identifying questions, designing the structure, or writing the content.
 
 # Principle 5 – Visitor Success Comes First
 
