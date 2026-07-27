@@ -64,3 +64,32 @@ Instead:
 Each iteration should make the website better than the previous one.
 
 New pages should be created based on evidence, user needs, and insights gained from previous iterations rather than assumptions.
+
+# Principle 4 – Define the Target Visitor First
+
+Every page should begin with a clearly defined target visitor.
+
+Before planning the content, identify:
+
+- Who is this page for?
+- What do they already know?
+- What are they trying to achieve?
+- What concerns or obstacles do they have?
+
+A page should never try to serve everyone. It should be written for one primary visitor with one primary goal.
+
+Understanding the visitor comes before identifying questions, designing the structure, or writing the content.
+
+# Principle 5 – Visitor Success Comes First
+
+The success of every page should be measured by whether it helps the visitor achieve their goal.
+
+Before publishing any page, ask:
+
+- What is the visitor trying to accomplish?
+- Does this page help them accomplish it?
+- What should the visitor be able to do after reading this page that they could not do before?
+
+Website metrics such as traffic, rankings, AI visibility, or conversions are important, but they are secondary outcomes.
+
+The primary measure of success is whether the visitor leaves the page better equipped to continue their memoir-writing journey.
