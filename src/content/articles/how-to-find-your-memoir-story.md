@@ -118,4 +118,4 @@ You can always refine your focus later.
 
 Now that you've chosen the story you want to tell, the next step is learning how to organize it into a compelling memoir.
 
-→ *How to Structure a Memoir* (coming soon)
+→ [How to Structure a Memoir](/how-to-structure-a-memoir/)
