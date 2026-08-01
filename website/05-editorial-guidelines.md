@@ -1,12 +1,12 @@
 # Editorial Guidelines
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document defines the editorial standards for HowToWriteYourMemoir.com.
+This document defines the editorial standards for **HowToWriteYourMemoir.com**.
 
 Its purpose is to ensure that all published content is consistent, trustworthy, easy to understand, and aligned with the website's objectives and brand strategy.
 
@@ -19,6 +19,18 @@ Every article should genuinely help the reader.
 Content should educate, guide, and encourage visitors rather than simply attract traffic.
 
 The primary measure of quality is whether the content helps someone make meaningful progress in writing a memoir.
+
+---
+
+# Editorial Principle
+
+The primary purpose of every article is to help the reader.
+
+Book recommendations should feel like useful guidance rather than sales messages.
+
+The website should become the internet's most trusted source for memoir-writing advice.
+
+Educational value always takes priority over promotion.
 
 ---
 
@@ -156,5 +168,6 @@ Content strategy, visual style, technical implementation, and optimization proce
 # Version History
 
 | Version | Date | Description |
-|----------|------|-------------|
+|---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial editorial guidelines. |
+| 1.1 | 2026-08-01 | Added the educational-first editorial principle and clarified the relationship between helpful content and book recommendations. |
