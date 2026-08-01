@@ -263,4 +263,4 @@ Structure is not a prison. It is a tool.
 
 Once you have a working structure, the next step is beginning the actual writing.
 
-→ *How to Start Writing Your Memoir* (coming soon)
+→ [How to Start Writing Your Memoir](/how-to-start-writing-your-memoir/)
