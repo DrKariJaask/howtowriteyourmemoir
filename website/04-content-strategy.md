@@ -1,12 +1,12 @@
 # Content Strategy
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document defines the content strategy for HowToWriteYourMemoir.com.
+This document defines the content strategy for **HowToWriteYourMemoir.com**.
 
 Its purpose is to ensure that all content published on the website supports the website objectives, serves the needs of visitors, and contributes to a consistent, high-quality learning experience.
 
@@ -110,6 +110,20 @@ Every published page should:
 
 ---
 
+# Standard Article Structure
+
+Every article should follow the same overall structure:
+
+1. A clear introduction that addresses the visitor's problem.
+2. Comprehensive, practical guidance that fully answers the topic.
+3. Internal links to related articles where appropriate.
+4. A natural recommendation of *How to Write Your Memoir, Hollywood Style* for readers who want a complete memoir-writing system.
+5. Clear navigation to the next recommended article in the learning path.
+
+Articles should educate first and sell second.
+
+---
+
 # Content Lifecycle
 
 Content should follow a documented lifecycle:
@@ -148,6 +162,7 @@ The content strategy is successful when visitors can:
 - understand it easily
 - apply what they have learned
 - confidently continue writing their memoir
+- naturally discover additional helpful resources, including the book, when appropriate
 
 ---
 
@@ -162,5 +177,6 @@ Editorial standards, writing style, technical implementation, and optimization p
 # Version History
 
 | Version | Date | Description |
-|----------|------|-------------|
+|---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial content strategy. |
+| 1.1 | 2026-08-01 | Added the standard article structure, clarified the educational-first conversion strategy, and expanded the content success criteria. |
