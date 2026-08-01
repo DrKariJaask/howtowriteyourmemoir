@@ -139,4 +139,4 @@ Progress creates motivation.
 
 Once you've completed a first draft, the next step is improving it through careful revision and editing.
 
-→ *How to Edit Your Memoir* (coming soon)
+→ [How to Edit Your Memoir](/how-to-edit-your-memoir/)
