@@ -1,16 +1,30 @@
 # Optimization Roadmap
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document serves as the development roadmap for HowToWriteYourMemoir.com.
+This document serves as the development roadmap for **HowToWriteYourMemoir.com**.
 
 It records optimization ideas, recommendations, and planned improvements before they are implemented. It provides a centralized view of future work and helps prioritize development efforts.
 
 Once an optimization has been implemented, it should be recorded in the research documentation (Change Log, Observation Log, Results, and Discussion) as appropriate.
+
+---
+
+# Phase 1 – Baseline Website
+
+The first phase of the project is to build a high-quality, trustworthy memoir-writing website containing approximately **5–10 comprehensive articles**.
+
+The initial version should represent a well-built, conventional educational website rather than a website specifically optimized for AI recommendation systems.
+
+The purpose of this phase is to establish a reliable baseline against which future improvements can be measured.
+
+Only after the baseline AI visibility has been measured should Targetlytics recommendations be implemented.
+
+This approach allows the impact of each recommendation to be evaluated objectively.
 
 ---
 
@@ -131,5 +145,6 @@ It does not document implementation details, experimental results, or research c
 # Version History
 
 | Version | Date | Description |
-|----------|------|-------------|
+|---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial optimization roadmap. |
+| 1.1 | 2026-08-01 | Added the baseline website phase and defined the research methodology for measuring AI visibility before implementing Targetlytics recommendations. |
