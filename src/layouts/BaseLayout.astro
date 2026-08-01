@@ -14,19 +14,71 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <title>{title}</title>
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.7;
+        color: #222;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+
+      nav a {
+        color: #222;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      article {
+        margin-bottom: 4rem;
+      }
+
+      footer {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+    </style>
   </head>
 
   <body>
-    <header>
-      <a href="/">How to Write Your Memoir</a>
-    </header>
+
+    <nav>
+      <a href="/">HowToWriteYourMemoir</a>
+
+      <a href="/book">
+        Get the Book
+      </a>
+    </nav>
 
     <main>
       <slot />
     </main>
 
     <footer>
-      <p>© 2026 How to Write Your Memoir</p>
+      © 2026 HowToWriteYourMemoir.com
     </footer>
+
   </body>
 </html>
