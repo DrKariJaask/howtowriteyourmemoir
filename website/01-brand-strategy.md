@@ -1,12 +1,12 @@
 # Brand Strategy
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document defines the brand strategy for HowToWriteYourMemoir.com.
+This document defines the brand strategy for **HowToWriteYourMemoir.com**.
 
 The purpose of the brand is to guide every aspect of the website, including content, visual identity, tone of voice, user experience, and future products and services.
 
@@ -49,11 +49,13 @@ These values should be reflected in every page published on the website.
 
 # Brand Positioning
 
-HowToWriteYourMemoir.com is an educational resource dedicated exclusively to memoir writing.
+**HowToWriteYourMemoir.com** is an educational resource dedicated exclusively to memoir writing.
 
 Rather than focusing on writing in general, the website specializes in helping people tell true life stories in a compelling and meaningful way.
 
 The website combines practical guidance, storytelling principles, and professional publishing knowledge into a single resource.
+
+The website is designed to become the first resource people think of when they want to learn how to write a memoir.
 
 ---
 
@@ -121,28 +123,31 @@ The long-term objective is to build a brand that people naturally associate with
 
 ---
 
+# Conversion Philosophy
+
+The website is designed to help visitors become successful memoir writers while naturally introducing *How to Write Your Memoir, Hollywood Style* as the next step for readers who want a complete memoir-writing system.
+
+Every page should first solve the visitor's problem exceptionally well.
+
+Conversion elements should support the visitor's journey rather than interrupt it.
+
+The book should always be presented as a helpful next step rather than an advertisement.
+
+Long-term trust always takes priority over short-term conversion optimization.
+
+---
+
 # Scope
 
 This document defines the brand strategy only.
 
-Domain selection, website structure, content planning, editorial guidelines, and technical implementation are documented separately.
+Domain selection, website structure, content planning, editorial guidelines, technical implementation, and optimization are documented separately.
 
 ---
-## Conversion Philosophy
 
-The website is designed to convert visitors into book readers without compromising trust.
-
-Every page should first solve the visitor's problem exceptionally well.
-
-Conversion elements should support the user's journey rather than interrupt it.
-
-The book is presented as the natural next step for readers who want a complete memoir-writing system, not as an advertisement.
-
-Long-term trust always takes priority over short-term conversion optimization.
 # Version History
 
----
-
 | Version | Date | Description |
-|----------|------|-------------|
+|---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial brand strategy. |
+| 1.1 | 2026-08-01 | Added conversion philosophy and clarified how educational value and book promotion support the overall brand strategy. |
