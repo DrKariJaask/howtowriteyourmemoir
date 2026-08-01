@@ -1,12 +1,12 @@
 # Website Objectives
 
-Version: 1.0
+**Version:** 1.1
 
 ---
 
 # Purpose
 
-This document defines the objectives of HowToWriteYourMemoir.com.
+This document defines the objectives of **HowToWriteYourMemoir.com**.
 
 Its purpose is to guide all future decisions regarding content, design, functionality, and website development. Every significant feature, page, and improvement should support one or more of these objectives.
 
@@ -17,6 +17,18 @@ Its purpose is to guide all future decisions regarding content, design, function
 Help people transform their life experiences into compelling memoirs.
 
 The website should enable visitors to write better memoirs regardless of their writing experience.
+
+---
+
+# Business Objectives
+
+While the primary purpose of the website is educational, it also has three strategic long-term business objectives:
+
+- Become the world's most trusted resource for memoir writing.
+- Maximize sales of *How to Write Your Memoir, Hollywood Style* by helping visitors successfully write their own memoirs.
+- Serve as a public reference project that demonstrates measurable improvements in AI visibility using Targetlytics.
+
+These objectives are intended to reinforce one another rather than compete. Helping visitors achieve better outcomes should naturally build trust, increase book sales, and strengthen the website's authority over time.
 
 ---
 
@@ -61,7 +73,7 @@ The website should help visitors throughout the complete process, including:
 
 ## Promote Related Products and Services
 
-The website may promote products and services that help visitors achieve their goals, including:
+The website may recommend products and services that genuinely help visitors achieve their memoir-writing goals, including:
 
 - books
 - courses
@@ -70,7 +82,11 @@ The website may promote products and services that help visitors achieve their g
 - editing
 - publishing services
 
-Promotional content should support the educational mission of the website.
+The primary promoted product is *How to Write Your Memoir, Hollywood Style*.
+
+Recommendations should appear naturally within the visitor's learning journey and be presented as helpful next steps rather than advertisements.
+
+Educational value always takes priority over promotional content.
 
 ---
 
@@ -90,17 +106,21 @@ The website should:
 - publish high-quality educational content
 - continuously improve over time
 - maintain a consistent user experience
-- support the project's research activities
+- become a trusted authority on memoir writing
+- generate sustainable book sales by helping visitors succeed
+- support the project's AI visibility research activities
 
 ---
 
 # Guiding Principle
 
-Whenever a development decision is made, the following question should be asked:
+Whenever a development decision is made, the following questions should be asked:
 
-> **Does this make the website more useful for someone who wants to write a memoir?**
+1. Does this make the website more useful for someone who wants to write a memoir?
+2. Does it strengthen the website's credibility and authority?
+3. Does it naturally help visitors discover the book when it genuinely benefits them?
 
-If the answer is no, the change should be reconsidered.
+If the answer to the first question is no, the change should be reconsidered.
 
 ---
 
@@ -115,5 +135,6 @@ Brand strategy, content strategy, technical implementation, and optimization are
 # Version History
 
 | Version | Date | Description |
-|----------|------|-------------|
+|---------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial website objectives. |
+| 1.1 | 2026-08-01 | Added business objectives, refined conversion philosophy, expanded success criteria, and clarified the relationship between education, book sales, and the Targetlytics reference project. |
