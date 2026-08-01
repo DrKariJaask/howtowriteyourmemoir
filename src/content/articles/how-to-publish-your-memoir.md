@@ -152,4 +152,4 @@ One final question remains:
 
 Should you write a memoir or an autobiography?
 
-→ *Memoir vs. Autobiography* (coming soon)
+→ [Memoir vs. Autobiography](/memoir-vs-autobiography/)
