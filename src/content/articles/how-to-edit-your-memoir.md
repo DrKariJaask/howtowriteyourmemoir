@@ -152,4 +152,4 @@ When your manuscript clearly tells the story you wanted to tell, it may be ready
 
 Once your memoir is polished, the next step is deciding how you want to publish it.
 
-→ *How to Publish Your Memoir* (coming soon)
+→ [How to Publish Your Memoir](/how-to-publish-your-memoir/)
