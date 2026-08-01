@@ -128,8 +128,20 @@ This document defines the brand strategy only.
 Domain selection, website structure, content planning, editorial guidelines, and technical implementation are documented separately.
 
 ---
+## Conversion Philosophy
 
+The website is designed to convert visitors into book readers without compromising trust.
+
+Every page should first solve the visitor's problem exceptionally well.
+
+Conversion elements should support the user's journey rather than interrupt it.
+
+The book is presented as the natural next step for readers who want a complete memoir-writing system, not as an advertisement.
+
+Long-term trust always takes priority over short-term conversion optimization.
 # Version History
+
+---
 
 | Version | Date | Description |
 |----------|------|-------------|
