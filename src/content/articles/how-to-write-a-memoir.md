@@ -134,6 +134,4 @@ The answer to that question is often where your memoir begins.
 
 Now that you understand what a memoir is and why people write one, the next step is choosing the story you want to tell.
 
-Continue with:
-
-**→ How to Find the Right Story for Your Memoir**
+→ [How to Find the Right Story for Your Memoir](/how-to-find-your-memoir-story/)
