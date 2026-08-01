@@ -116,6 +116,6 @@ You can always refine your focus later.
 
 ## What's Next?
 
-Now that you've identified the story you want to tell, the next step is learning how to organize it into a compelling structure.
+Now that you've chosen the story you want to tell, the next step is learning how to organize it into a compelling memoir.
 
-**→ How to Structure a Memoir**
+→ *How to Structure a Memoir* (coming soon)
