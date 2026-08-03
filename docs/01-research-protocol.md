@@ -1,6 +1,6 @@
 # Research Protocol
 
-Version: 1.0
+Version: 2.0
 
 ---
 
@@ -18,7 +18,8 @@ The protocol is intended to ensure that the research process is transparent, rep
 
 The objectives of the study are to:
 
-- document the development of a production website
+- compare a conventional AI-assisted publishing workflow with a Targetlytics-guided optimization workflow
+- document website development under real production conditions
 - document significant optimization activities
 - measure website visibility over time
 - record observations throughout the project
@@ -28,21 +29,35 @@ The objectives of the study are to:
 
 # Study Design
 
-The project follows a longitudinal case study design.
+The project follows a longitudinal comparative case study.
 
-The website will be developed under normal production conditions while research data is collected continuously throughout the project.
+Two independent production websites are created within the same subject area.
+
+One website serves as the **Baseline**, representing a conventional AI-assisted publishing workflow.
+
+The second website serves as the **Targetlytics Website**, where optimization decisions are guided by Targetlytics.
+
+Both websites are developed under normal production conditions while research data is collected continuously throughout the project.
 
 The study documents events as they occur rather than reconstructing them afterwards.
 
 ---
 
-# Study Subject
+# Study Subjects
 
-The study focuses on a single production website:
+The study compares two production websites.
 
-**HowToWriteYourMemoir.com**
+## Baseline Website
 
-The website serves both as the subject of the study and as the environment in which observations are collected.
+A website maintained using conventional AI-assisted content creation and standard editorial practices.
+
+No Targetlytics recommendations may influence optimization decisions.
+
+## Targetlytics Website
+
+A website optimized using Targetlytics recommendations.
+
+Targetlytics may internally utilize one or more AI models whenever appropriate.
 
 ---
 
@@ -74,7 +89,7 @@ The project records information including, but not limited to:
 - implementation history
 - research observations
 
-Detailed measurement procedures are defined in **03-measurement-protocol.md**.
+Detailed measurement procedures are defined in **04-measurement-protocol.md**.
 
 ---
 
@@ -91,21 +106,33 @@ Whenever practical, significant activities should answer the following questions
 
 ---
 
+# Pre-registration
+
+The overall experimental methodology is defined before Targetlytics optimization begins.
+
+Once the experimental phase starts:
+
+- the study objectives remain unchanged
+- the comparison methodology remains unchanged
+- any protocol modifications will be documented in the Change Log together with their rationale and expected impact
+
+---
+
 # Interpretation
 
 Observations and interpretations are documented separately.
 
 Observations are recorded in the observation log.
 
-Interpretation of those observations is documented in the discussion section after sufficient evidence has been collected.
+Interpretation of those observations is documented in the discussion section only after sufficient evidence has been collected.
 
 ---
 
 # Protocol Changes
 
-The research protocol may be revised if improvements become necessary during the project.
+The research protocol may be revised if improvements become necessary before or during the study.
 
-All protocol changes should be documented together with:
+All protocol changes will be documented together with:
 
 - date
 - description of the modification
@@ -116,9 +143,9 @@ All protocol changes should be documented together with:
 
 # Scope
 
-This protocol defines how this specific study is conducted.
+This protocol defines how this specific longitudinal comparative case study is conducted.
 
-It does not prescribe research methods for other projects or claim that the methodology is universally applicable.
+It does not prescribe research methods for other projects and does not claim that this methodology is universally applicable.
 
 ---
 
@@ -127,3 +154,4 @@ It does not prescribe research methods for other projects or claim that the meth
 | Version | Date | Description |
 |----------|------|-------------|
 | 1.0 | YYYY-MM-DD | Initial research protocol. |
+| 2.0 | 2026-08-03 | Updated to describe a comparative longitudinal study between a Baseline website and a Targetlytics-guided website, including protocol pre-registration. |
