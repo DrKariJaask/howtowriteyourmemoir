@@ -28,8 +28,8 @@ const description =
     </div>
   </section>
 
-  <section aria-labelledby="why-this-site">
-    <h2 id="why-this-site">What You Will Learn</h2>
+  <section aria-labelledby="what-you-will-learn">
+    <h2 id="what-you-will-learn">What You Will Learn</h2>
 
     <div class="card-grid">
       <article class="card">
@@ -127,13 +127,13 @@ const description =
   <style>
     .hero {
       padding: 1rem 0 3.5rem;
-      text-align: center;
+      text-align: left;
     }
 
     .hero h1 {
-      max-width: 780px;
-      margin-right: auto;
-      margin-left: auto;
+      max-width: 760px;
+      margin-right: 0;
+      margin-left: 0;
     }
 
     .eyebrow {
@@ -147,16 +147,16 @@ const description =
 
     .hero-intro {
       max-width: 700px;
-      margin-right: auto;
+      margin-right: 0;
       margin-bottom: 2rem;
-      margin-left: auto;
+      margin-left: 0;
       color: var(--muted);
       font-size: 1.15rem;
     }
 
     .hero-actions {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       gap: 1rem;
       flex-wrap: wrap;
     }
@@ -223,14 +223,6 @@ const description =
     }
 
     @media (max-width: 700px) {
-      .hero {
-        text-align: left;
-      }
-
-      .hero-actions {
-        justify-content: flex-start;
-      }
-
       .book-promo {
         grid-template-columns: 1fr;
       }
